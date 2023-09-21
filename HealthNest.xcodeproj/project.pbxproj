@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981920A42ABA115600187EBD /* HealthNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981920A32ABA115600187EBD /* HealthNestApp.swift */; };
+		981920A82ABA115700187EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981920A72ABA115700187EBD /* Assets.xcassets */; };
+		981920AB2ABA115700187EBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981920AA2ABA115700187EBD /* Preview Assets.xcassets */; };
+		981920B42ABA12A500187EBD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981920B32ABA12A500187EBD /* LoginView.swift */; };
+		981920B72ABA359600187EBD /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981920B62ABA359600187EBD /* HomeFeedView.swift */; };
+		98B5B2822ABB34740004BABF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2812ABB34740004BABF /* APIService.swift */; };
+		98B5B2852ABB34CF0004BABF /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2842ABB34CF0004BABF /* Credentials.swift */; };
+		98B5B2882ABB359F0004BABF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2872ABB359F0004BABF /* SessionManager.swift */; };
+		98B5B28B2ABB387C0004BABF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B28A2ABB387C0004BABF /* LoginViewModel.swift */; };
+		98B5B28D2ABB3CE70004BABF /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B28C2ABB3CE70004BABF /* ProgressLoaderView.swift */; };
+		98B5B2902ABB3D720004BABF /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B28F2ABB3D720004BABF /* View+Extension.swift */; };
+		98B5B2922ABB3E080004BABF /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2912ABB3E080004BABF /* UIApplication+Extension.swift */; };
+		98B5B2942ABB5AC70004BABF /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2932ABB5AC70004BABF /* PostView.swift */; };
+		98B5B2962ABB5FD90004BABF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2952ABB5FD90004BABF /* Post.swift */; };
+		98B5B2982ABB60750004BABF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B2972ABB60750004BABF /* HomeViewModel.swift */; };
+		98B5B29B2ABB6B2A0004BABF /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B29A2ABB6B2A0004BABF /* TabbarView.swift */; };
+		98B5B29D2ABB70C00004BABF /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5B29C2ABB70C00004BABF /* CustomTabBarView.swift */; };
+		98C7E0532ABC962400F1F46C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C7E0522ABC962400F1F46C /* AddView.swift */; };
+		98C7E0552ABCD2DA00F1F46C /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C7E0542ABCD2DA00F1F46C /* Activity.swift */; };
+		98C7E0572ABCE96F00F1F46C /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C7E0562ABCE96F00F1F46C /* ReactionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		981920A02ABA115600187EBD /* HealthNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981920A32ABA115600187EBD /* HealthNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNestApp.swift; sourceTree = "<group>"; };
+		981920A72ABA115700187EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		981920AA2ABA115700187EBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		981920B32ABA12A500187EBD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		981920B62ABA359600187EBD /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		98B5B2812ABB34740004BABF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		98B5B2842ABB34CF0004BABF /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		98B5B2872ABB359F0004BABF /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		98B5B28A2ABB387C0004BABF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		98B5B28C2ABB3CE70004BABF /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
+		98B5B28F2ABB3D720004BABF /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		98B5B2912ABB3E080004BABF /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		98B5B2932ABB5AC70004BABF /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		98B5B2952ABB5FD90004BABF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		98B5B2972ABB60750004BABF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		98B5B29A2ABB6B2A0004BABF /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		98B5B29C2ABB70C00004BABF /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		98C7E0522ABC962400F1F46C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		98C7E0542ABCD2DA00F1F46C /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		98C7E0562ABCE96F00F1F46C /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9819209D2ABA115600187EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981920972ABA115600187EBD = {
+			isa = PBXGroup;
+			children = (
+				981920A22ABA115600187EBD /* HealthNest */,
+				981920A12ABA115600187EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981920A12ABA115600187EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981920A02ABA115600187EBD /* HealthNest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981920A22ABA115600187EBD /* HealthNest */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B28E2ABB3D5E0004BABF /* Extensions */,
+				98B5B2892ABB386E0004BABF /* ViewModel */,
+				98B5B2862ABB358B0004BABF /* SessionManager */,
+				98B5B2832ABB34C00004BABF /* Models */,
+				98B5B2802ABB34590004BABF /* Services */,
+				981920B12ABA127E00187EBD /* Views */,
+				981920A32ABA115600187EBD /* HealthNestApp.swift */,
+				981920A72ABA115700187EBD /* Assets.xcassets */,
+				981920A92ABA115700187EBD /* Preview Content */,
+			);
+			path = HealthNest;
+			sourceTree = "<group>";
+		};
+		981920A92ABA115700187EBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				981920AA2ABA115700187EBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		981920B12ABA127E00187EBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B2992ABB6B170004BABF /* TabView */,
+				981920B52ABA356800187EBD /* HomeView */,
+				981920B22ABA128C00187EBD /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		981920B22ABA128C00187EBD /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				981920B32ABA12A500187EBD /* LoginView.swift */,
+				98B5B28C2ABB3CE70004BABF /* ProgressLoaderView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		981920B52ABA356800187EBD /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				981920B62ABA359600187EBD /* HomeFeedView.swift */,
+				98B5B2932ABB5AC70004BABF /* PostView.swift */,
+				98C7E0522ABC962400F1F46C /* AddView.swift */,
+				98C7E0562ABCE96F00F1F46C /* ReactionView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		98B5B2802ABB34590004BABF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B2812ABB34740004BABF /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98B5B2832ABB34C00004BABF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B2842ABB34CF0004BABF /* Credentials.swift */,
+				98B5B2952ABB5FD90004BABF /* Post.swift */,
+				98C7E0542ABCD2DA00F1F46C /* Activity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98B5B2862ABB358B0004BABF /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B2872ABB359F0004BABF /* SessionManager.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		98B5B2892ABB386E0004BABF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B28A2ABB387C0004BABF /* LoginViewModel.swift */,
+				98B5B2972ABB60750004BABF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		98B5B28E2ABB3D5E0004BABF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B28F2ABB3D720004BABF /* View+Extension.swift */,
+				98B5B2912ABB3E080004BABF /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		98B5B2992ABB6B170004BABF /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				98B5B29A2ABB6B2A0004BABF /* TabbarView.swift */,
+				98B5B29C2ABB70C00004BABF /* CustomTabBarView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9819209F2ABA115600187EBD /* HealthNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981920AE2ABA115700187EBD /* Build configuration list for PBXNativeTarget "HealthNest" */;
+			buildPhases = (
+				9819209C2ABA115600187EBD /* Sources */,
+				9819209D2ABA115600187EBD /* Frameworks */,
+				9819209E2ABA115600187EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthNest;
+			productName = HealthNest;
+			productReference = 981920A02ABA115600187EBD /* HealthNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981920982ABA115600187EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9819209F2ABA115600187EBD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9819209B2ABA115600187EBD /* Build configuration list for PBXProject "HealthNest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981920972ABA115600187EBD;
+			productRefGroup = 981920A12ABA115600187EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9819209F2ABA115600187EBD /* HealthNest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9819209E2ABA115600187EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981920AB2ABA115700187EBD /* Preview Assets.xcassets in Resources */,
+				981920A82ABA115700187EBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9819209C2ABA115600187EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C7E0552ABCD2DA00F1F46C /* Activity.swift in Sources */,
+				98C7E0572ABCE96F00F1F46C /* ReactionView.swift in Sources */,
+				981920B42ABA12A500187EBD /* LoginView.swift in Sources */,
+				981920A42ABA115600187EBD /* HealthNestApp.swift in Sources */,
+				98B5B28D2ABB3CE70004BABF /* ProgressLoaderView.swift in Sources */,
+				98B5B2962ABB5FD90004BABF /* Post.swift in Sources */,
+				98B5B2882ABB359F0004BABF /* SessionManager.swift in Sources */,
+				98B5B2852ABB34CF0004BABF /* Credentials.swift in Sources */,
+				98B5B29D2ABB70C00004BABF /* CustomTabBarView.swift in Sources */,
+				98B5B2822ABB34740004BABF /* APIService.swift in Sources */,
+				981920B72ABA359600187EBD /* HomeFeedView.swift in Sources */,
+				98B5B29B2ABB6B2A0004BABF /* TabbarView.swift in Sources */,
+				98B5B2982ABB60750004BABF /* HomeViewModel.swift in Sources */,
+				98B5B2902ABB3D720004BABF /* View+Extension.swift in Sources */,
+				98C7E0532ABC962400F1F46C /* AddView.swift in Sources */,
+				98B5B2922ABB3E080004BABF /* UIApplication+Extension.swift in Sources */,
+				98B5B28B2ABB387C0004BABF /* LoginViewModel.swift in Sources */,
+				98B5B2942ABB5AC70004BABF /* PostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		981920AC2ABA115700187EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		981920AD2ABA115700187EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981920AF2ABA115700187EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthNest/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PJGNPWL28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caw.HealthNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		981920B02ABA115700187EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthNest/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PJGNPWL28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caw.HealthNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9819209B2ABA115600187EBD /* Build configuration list for PBXProject "HealthNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981920AC2ABA115700187EBD /* Debug */,
+				981920AD2ABA115700187EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981920AE2ABA115700187EBD /* Build configuration list for PBXNativeTarget "HealthNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981920AF2ABA115700187EBD /* Debug */,
+				981920B02ABA115700187EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981920982ABA115600187EBD /* Project object */;
+}
